@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+           margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+        }
+        body
+        {    
+            background-color:rgb(31, 31, 87);
+            overflow-y: hidden;
+        }
+        nav {
+            background-color: rgb(34, 34, 118);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 70px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;         
+        }
+        nav ul li {
+            list-style: none;
+            margin:0 25px;
+        }
+        ul li a {
+            color: white;
+            text-decoration: none;
+            font-size:1.2rem;          
+        }
+        .left
+        {
+            color:white;
+            font-size:2rem;
+        }
+        .first-section
+        {
+            display:flex;
+            justify-content: space-around;
+            margin:70px 0;
+        }
+        .first-section > div{
+            width:40%;
+        }
+        .left-section
+        {
+            font-size: 2rem;
+            margin:70px;
+            color:white
+        }
+        .right-section img
+        {
+            height:400px;
+            border-radius:300px;
+            border: 2px solid orange;
+        }
+        .text1
+        {
+            color:orange;
+        }
+        .text2
+        {
+            color: gold;   
+        }
+        .add-text
+        {
+            color:white;
+            margin-top:27px;
+            font-size:1rem;    
+        }
+        .btn button{
+            margin:25px 1px;
+            padding:5px;
+            border-radius:8px;
+            background-color:rgb(55, 55, 157);
+            font-size:1rem;
+            border:none;
+        }
+        .btn button a
+        {
+            text-decoration: none;
+            color:white;
+        }
+     </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Services.html">Servises</a></li>
+                    <li><a href="Skill.html">Skills</a></li>
+                    <li><a href="Project.html">Project</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+      <section class="first-section">
+            <div class="left-section">
+                  <div>
+                     Hello!
+                  </div>
+                 I'am <span class="text1">Kartik Sonar</span> 
+                <div>and I'am a <span class="text2">java developer</span></div>  
+                    <div class="add-text">
+                         <i>Passionate about Software Development and Innovation & Seeking Opportunities as a java developer
+                         to Contrubute to Tech Excellence</i>
+                    </div>
+                    <div class="btn">
+                        <button><a>Download Resume</a></button>
+                        <button><a href="https://github.com/kartik-sonar123">Visit GitHub</a></button>
+                    </div>
+              </div>
+           <div class="right-section">
+                <img src="image/myphoto.jpeg" alt="">
+            </div>
+      </section>
+    </main>
+</body>
+</html>
